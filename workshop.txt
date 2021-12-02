@@ -1,0 +1,1 @@
+#Use these commands to create kind-k8s cluster with 3 nodes (1 master & 2 Worker nodes)
