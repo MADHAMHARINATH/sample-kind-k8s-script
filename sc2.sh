@@ -9,4 +9,3 @@ sudo apt-get install docker.io                                         #install 
 sudo kind create cluster --config kind-config.yaml                     #create 3node(1-Master,2-Node) Cluster using kind-config.yaml file
 sudo kind get nodes                                                    #to see the list of nodes
 sudo docker ps -a                                                      #to see the list of docker container nodes
-kubectl get nodes                                                      ##to see the list of nodes
