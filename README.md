@@ -1,1 +1,0 @@
-# sample-kind-k8s-script
