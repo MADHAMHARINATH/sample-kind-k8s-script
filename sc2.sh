@@ -6,3 +6,7 @@ curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stabl
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 sudo apt-get update
 sudo apt-get install docker.io
+sudo kind create cluster --config kind-config.yaml
+sudo kind get nodes
+sudo docker ps -a
+kubectl get nodes
