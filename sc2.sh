@@ -1,5 +1,5 @@
 #!/bin/bash
-curl -Lo ./kind https://kind.sigs.k8s.io/dl/v1.20.7/kind-linux-amd64   #download and install kind
+curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.11.1/kind-linux-amd64   #download and install kind
 chmod +x ./kind                                                        #give all permissions for owner 
 sudo mv ./kind /usr/bin/kind                                           #move to any system path if needed
 curl -LO https://dl.k8s.io/release/v1.20.0/bin/linux/amd64/kubectl       #Download the latest release with the command
